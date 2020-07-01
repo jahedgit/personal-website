@@ -14,10 +14,6 @@ h1{
 p{
     color: dimgray;
 }
-p:hover{
-    color: black;
-    font-weight: 600;
-}
 .half-width{
     width: 40%;
     float: left;
@@ -127,7 +123,33 @@ h4{
     background-size: 100%;
     padding-top: 50px;
 } 
-footer p{
+.services-list{
+    width: 20%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid;
+    border-top: 7px solid;
+    border-image: linear-gradient(180deg, rgb(42, 185, 13), cyan);
+    border-image-slice: 1;
+}
+.services-area img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+.services-area p{
     font-size: 12px;
+}
+.services-area{
+    height: 500px;
+}
+footer p{
     text-align: center;
+    font-size: 12px;
 }
